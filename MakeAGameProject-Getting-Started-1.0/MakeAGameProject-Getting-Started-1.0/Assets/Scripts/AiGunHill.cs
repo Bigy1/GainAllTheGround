@@ -3,6 +3,7 @@ using System.Collections.Generic;
 using UnityEngine;
 [RequireComponent(typeof(Animator))]
 public class AiGunHill : MonoBehaviour {
+
     public float fireRate = 3f;
     private Vector2 playerPos;
     private Vector2 originalPos;
@@ -11,6 +12,7 @@ public class AiGunHill : MonoBehaviour {
     Animator animator;
     public bool LookDown;
     public float raycastMaxDistance = 10f;
+
     //private float originOffset = 0.5f;
 
     // Use this for initialization

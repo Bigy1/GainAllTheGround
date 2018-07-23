@@ -38,6 +38,10 @@ public class BulletDestroy : MonoBehaviour {
         {
             Destruction();
         }
+        if (other.name == "MapCollision")
+        {
+            Destruction();
+        }
     }
     void Destruction()
     {
